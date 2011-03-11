@@ -4,6 +4,8 @@ local UnitName, UnitIsDead = _G.UnitName, _G.UnitIsDead
 local parent = HudMap
 local L = LibStub("AceLocale-3.0"):GetLocale("HudMap")
 local SN = parent.SN
+-- this is a test
+local testingvar = 0
 
 local function register(e)	
 	encounters:RegisterEncounterMarker(e)

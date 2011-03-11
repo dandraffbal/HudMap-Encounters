@@ -5,6 +5,8 @@ local parent = HudMap
 local L = LibStub("AceLocale-3.0"):GetLocale("HudMap")
 local SN = parent.SN
 
+-- Ignore these comments that I'm putting in
+
 local function register(e)	
 	encounters:RegisterEncounterMarker(e)
 	return e
